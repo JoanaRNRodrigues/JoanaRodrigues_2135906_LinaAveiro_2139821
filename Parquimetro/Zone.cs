@@ -124,7 +124,7 @@ namespace Parquimetro
             Console.WriteLine($"----------------\n" +
                 $"Zona: {id}\n" +
                 $"Hora de Entrada: {DateTime.Now}\n" +
-                $"Hora de Saída: {exitTime.Day}/{exitTime.Month}\n{exitTime.Hour}h{exitTime.Minute}" +
+                $"Hora de Saída: {exitTime.Day}/{exitTime.Month}/{exitTime.Year} {exitTime.Hour}:{exitTime.Minute}:00\n" +
                 $"ID: {ticketId}");
         }
 
